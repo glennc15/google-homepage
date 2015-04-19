@@ -4,11 +4,21 @@
 }
 */
 
+.upper_nav_bar {
+    display: block;
+    height: 30px;
+    width: 800px;
+    margin: 0px auto;
+}
+
+ul.upper_nav_bar div {
+    float: right;
+}
+
 ul.upper_nav_bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-left: 750px;
 }
 
 ul.upper_nav_bar li {
@@ -130,4 +140,38 @@ input.lucky_button {
     color: blue
 }
 
+.lower_nav_bar {
+    display: block;
+    height: 30px;
+    width: 800px;
+    margin: 0px auto;
+    background-color: lightgray
+}
 
+ul.lower_nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+/*    margin-left: 750px;*/
+}
+
+ul.lower_nav_bar li {
+    display: inline;
+    margin-left: 5px
+}
+
+ul.lower_nav_bar li a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: .8em;
+    
+}
+
+ul.lower_nav_bar .left_links {
+    float: left;
+}
+
+ul.lower_nav_bar .right_links {
+    float: right;
+}
