@@ -33,6 +33,47 @@ ul.upper_nav_bar li a {
     font-size: .8em;
 }
 
+a.apps_link {
+    background-image: url("../images/i1_71651352.png");
+    background-position: -100px -60px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    opacity: 0.6;
+}
+
+a.share_link {
+    background-image: url("../images/i1_71651352.png");
+/*    background-position: -100px -60p;*/
+    background-position: -259px -105px;
+
+    position: absolute;
+    left: 990px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.6;
+}    
+    
+a.apps_link:hover, a.share_link:hover {
+    opacity: 1.0;
+}
+
+a.notifications_link {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 945px;
+    border-radius: 15px;
+    background-color: gray;
+    background-image: url("../images/i1_71651352.png");
+    background-position: -212px -115px;    
+}
+
+a.notifications_link:hover {
+    background-color: black;
+}
+
+
 .content {
     display: block;
     height: 500px;
