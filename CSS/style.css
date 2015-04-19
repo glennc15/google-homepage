@@ -1,0 +1,137 @@
+* {
+border: 1px dashed green;
+}
+
+div {
+    margin: o;
+    padding: 0;
+}
+
+div div {
+    background: #000000;
+/*    position: relative;*/
+}
+
+
+
+.content {
+    height: 400px;
+    width: 800px;
+/*    margin-top:100px; */
+/*    margin-bottom: 100px;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+    margin: 100px auto;
+}
+
+.logo {
+    height: 100px;
+    width: 285px;
+    display: block;
+    margin: auto;
+}
+
+.logo img {
+    height: 100px;   
+}
+
+.logo p {
+    color: gray;
+    font-family: Arial;
+    position: relative;
+    top: -40px;
+    left: 225px;
+}
+
+
+/*
+.logo_pic {
+    height: 100px;
+    width: 300px;
+    background-color: yellow;
+    margin: 100px auto;
+}
+
+
+*/
+
+
+
+/*
+.logo {
+    position: relative;
+    top: 165px;
+    left: 325px;
+       
+
+}
+
+.logo img {
+    width: 275px;
+    height: 90px;
+    
+}
+
+.logo p {
+    position: absolute;
+    top: 55px;
+    left: 220px;
+    font-family: Arial;
+    font-size: .9em;
+    color: dimgray;
+}
+
+.search_form {
+    
+}
+
+input[type="text"] {
+    width: 500px;
+}
+
+
+
+    
+div .push_button a : hover {
+    font-weight: bold;
+    
+}
+    
+div .push_button {
+
+    height: 30px;
+    width: 120px;
+    
+    margin: auto;
+    
+    text-align: center;
+    vertical-align: text-bottom;
+    
+    
+    background-color: lightgrey;
+    
+    border-sytle: solid;
+    border-width: 2px;
+    border-color: grey;
+    border-radius: 5px;
+    
+}
+    
+div .push_button a{
+    text-decoration: none;
+    
+    display: inline-block;
+    vertical-align: middle;
+    
+    font-family: Arial;
+    font-size: .75em;
+    color: darkslategray;
+    
+    
+}
+
+*/
+
+    
+    
+    
