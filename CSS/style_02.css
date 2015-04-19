@@ -4,6 +4,25 @@
 }
 */
 
+ul.upper_nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 750px;
+}
+
+ul.upper_nav_bar li {
+    display: inline;
+    margin-left: 5px
+}
+
+ul.upper_nav_bar li a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: .8em;
+}
+
 .content {
     display: block;
     height: 500px;
