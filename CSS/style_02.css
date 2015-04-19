@@ -1,32 +1,19 @@
+/*
 * {
     border: 1px solid green;
 }
+*/
 
 .content {
+    display: block;
     height: 500px;
     width: 800px;
-    margin: 100px auto;
-    
-    
-    background-color: black;
-    border: 5px solid orange;
-    border-radius: 5px;
-    
-    
-    
+    margin: 180px auto;
+        
+/*    background8color: whitesmoke;*/
+/*    border: 5px solid orange;    */
 }
 
-/*
- .content div {    
-    height: 50px;
-    width: 100px;
-    display: block;
-
-    margin: auto;
-     
-    
-}
-*/
 .logo, .search_form, .language_select {
     display: block;
     margin: auto;
@@ -39,11 +26,11 @@
 /*    margin-bottom: 10px;*/
     
     
-    background-color: green;
+/*    background-color: green;*/
 }
 
 .logo img {
-    width: 300px;
+    width: 270px;
     display: block;
     margin: 0 auto;
 }
@@ -53,27 +40,63 @@
     font-weight: bold;
     color: dimgray;
     position: relative;
-    top: -45px;
-    left: 295px;
+    top: -35px;
+    left: 285px;
 }
-
-
 
 .search_form {
-    height: 150px;
+    height: 100px;
     width: 500px;
-    margin-top: 10px;
+    margin-top: 25px;
 
-    background-color: yellow;
+/*    background-color: yellow;*/
 }
+
+input.search_field {
+/*    position: relative;*/
+/*    left: -80px;*/
+/*    display: block;*/
+/*    width: 300px;*/
+    width: 500px;
+    height: 2em;
+/*    margin: ;*/
+    
+}
+
+input.search_button, input.lucky_button {
+    display: inline-block;
+    margin: 15px auto;
+    
+/*    font-weight: bold;*/
+    height: 2.5em;
+    font-size: .75em;
+    border-radius: 3px;
+    background-color: lightgrey;
+    border: 2px silver solid;
+
+}
+
+input.search_button:hover, input.lucky_button:hover {
+    border-style: ridge;   
+}
+
+input.search_button {
+    margin-left: 150px;
+}
+
+input.lucky_button {
+    margin-left: 10px;
+}
+
+
 
 .language_select {
 /*    height: 50px;*/
     width: 200px;
-    margin-top: 10px;
+/*    margin-top: 5px;*/
     
     
-    background-color: red;
+/*    background-color: red;*/
 }
 
 .language_select p {
@@ -85,6 +108,7 @@
 
 .language_select a {
     text-decoration: none;
+    color: blue
 }
 
 
