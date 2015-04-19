@@ -152,18 +152,23 @@ ul.lower_nav_bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
 /*    margin-left: 750px;*/
 }
 
 ul.lower_nav_bar li {
     display: inline;
-    margin-left: 5px
+    margin-left: 30px
+}
+
+a#last {
+    margin-right: 30px;
 }
 
 ul.lower_nav_bar li a {
     font-family: sans-serif;
     text-decoration: none;
-    color: black;
+    color: dimgray;
     font-size: .8em;
     
 }
@@ -174,4 +179,8 @@ ul.lower_nav_bar .left_links {
 
 ul.lower_nav_bar .right_links {
     float: right;
+}
+
+a.text_link:hover {
+    text-decoration: underline;
 }
